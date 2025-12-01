@@ -73,7 +73,7 @@ to enhance analysis.</p>
 ```spl
 index=mitre EventCode=4624 src_ip=192.168.100.181 | stats count by _time, user, src_ip
 ```
-<p align="center"
+<p align="center">
 <img width="1062" height="873" alt="image" src="https://github.com/user-attachments/assets/7da80a9a-8e37-48c6-87f0-71200e554e9f" />
 </p>
 - we can see theres successful logins from administrator and sm account
